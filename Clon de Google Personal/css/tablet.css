@@ -1,0 +1,83 @@
+@media (min-width: 768px){
+/* Header */
+header a{
+    font-size: 2rem;
+    padding: 15px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.profile{
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+}
+
+.apps{
+    width: 45px;
+    height: 45px;
+}
+
+/* Main */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+}
+
+main div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container{
+    position: absolute;
+    margin-top: 70px;
+}
+
+main .input-label{
+    width: 550px;
+    height: 65px;
+}
+
+main input{
+    width: 450px;
+    height: 55px;
+}
+
+.sphere{
+    width: 550px;
+    height: 550px;
+}
+
+
+.ruby{
+    width: 60px;
+    height: 60px;
+}
+
+main a img{
+    margin-top: 5px;
+}
+
+main a img:hover{
+    width: 65px;
+    height: 65px;
+}
+
+/* Footer */
+footer span{
+    font-size: 1.5rem;
+}
+
+}

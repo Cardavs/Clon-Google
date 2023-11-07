@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+    background-color: black;
+}
+
+/* Header */
+
+header{
+    background-color: rgb(63, 63, 63);
+}
+
+header a{
+    font-size: 1rem;
+    color: white;
+    padding: 7px;
+}
+
+header div{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.profile{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+.apps{
+    width: 25px;
+    height: 25px;
+}
+
+/* Main */
+main{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+}
+
+main div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-container{
+    position: absolute;
+    margin-top: 70px;
+}
+
+main .input-label{
+    width: 350px;
+    height: 35px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main input{
+    font-size: 1.5rem;
+    width: 250px;
+    height: 25px;
+    text-align: center;
+    border: none;
+    outline: none;
+}
+
+.sphere{
+    width: 350px;
+    height: 350px;
+}
+
+
+.ruby{
+    width: 50px;
+    height: 50px;
+}
+
+main a img:hover{
+    width: 55px;
+    height: 55px;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(31, 31, 31);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 100px;
+}
+
+footer span{
+    font-size: 0.9rem;
+    color: white;
+    padding: 5px;
+}
+
+footer hr{
+    height: 1px; 
+    border: 0px solid #6c6c6c; 
+    border-bottom-width: 1px;
+}
+
+.mainFootercontainer{
+    padding: 25px;
+}
+
+.secondFootercontainer{
+    padding: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
